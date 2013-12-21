@@ -85,7 +85,7 @@ current runmode will automatically be short circuited so that it
 will not execute.  As soon as all prerun method have finished,
 the redirect will happen without the runmode being executed.
 
-The $status paramater is optional as the CGI module will default to something
+The $status parameter is optional as the CGI module will default to something
 suitable.
 
   return $self->redirect('http://www.example.com/');
